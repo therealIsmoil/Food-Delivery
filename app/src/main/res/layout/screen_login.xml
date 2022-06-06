@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    tools:context=".presentation.ui.screens.LoginScreen">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/login_line_38_percent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.38" />
+
+    <View
+        android:id="@+id/login_card"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/login_screen_card_bg"
+        android:elevation="28dp"
+        app:layout_constraintBottom_toTopOf="@id/login_line_38_percent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/login_screen_logo"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:elevation="32dp"
+        android:src="@drawable/ic_start_screen_logo"
+        app:layout_constraintBottom_toTopOf="@id/login_line_38_percent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/ic_start_screen_vector"
+        android:elevation="32dp"
+        app:layout_constraintBottom_toBottomOf="@id/login_screen_logo"
+        app:layout_constraintLeft_toLeftOf="@id/login_screen_logo"
+        app:layout_constraintRight_toRightOf="@id/login_screen_logo"
+        app:layout_constraintTop_toTopOf="@id/login_screen_logo" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/login_screen_tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/size_30dp"
+        android:background="@drawable/shape_login_screen_tablayout"
+        android:elevation="32dp"
+        app:layout_constraintBottom_toTopOf="@id/login_line_38_percent"
+        app:tabIndicatorColor="#FA4A0C"
+        app:tabSelectedTextColor="#FA4A0C"
+        app:tabTextAppearance="@style/tab_text"
+        app:tabTextColor="@color/black" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/login_screen_viewpager2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/login_line_38_percent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

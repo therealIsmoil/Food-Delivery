@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.ui.screens.FoodInfoScreen">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/food_info_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/size_24dp"
+        android:layout_marginTop="@dimen/size_24dp"
+        android:padding="@dimen/size_8dp"
+        android:src="@drawable/ic_back"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/food_info_image"
+        android:layout_width="@dimen/size_250dp"
+        android:layout_height="0dp"
+        android:elevation="@dimen/size_30dp"
+        android:src="@drawable/food_info_image"
+        app:layout_constraintBottom_toTopOf="@id/food_info_line_35_percent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/food_info_back" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/food_info_line_35_percent"
+        android:layout_width="@dimen/size_0dp"
+        android:layout_height="@dimen/size_0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.35" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/food_info_line_92_percent"
+        android:layout_width="@dimen/size_0dp"
+        android:layout_height="@dimen/size_0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.92" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/food_info_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sf_pro_rounded"
+        android:gravity="center"
+        android:text="@string/veggie_tomato_mix"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_26sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/food_info_line_35_percent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/food_info_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sf_pro_rounded"
+        android:text="@string/food_info_price_n1_900"
+        android:textColor="#FA4A0C"
+        android:textSize="@dimen/text_22sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/food_info_name" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/food_info_delivery_info_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_16dp"
+        android:fontFamily="@font/sf_pro_rounded"
+        android:text="@string/text_food_info_screen_delivery_info"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_17sp"
+        app:layout_constraintStart_toEndOf="@id/food_info_back"
+        app:layout_constraintTop_toBottomOf="@id/food_info_price" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/food_info_delivery_info_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/size_24dp"
+        android:alpha="0.5"
+        android:fontFamily="@font/sf_pro_text"
+        android:justificationMode="inter_word"
+        android:letterSpacing="0.02"
+        android:text="@string/food_info_text_delivery_info"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/food_info_delivery_info_title"
+        app:layout_constraintTop_toBottomOf="@id/food_info_delivery_info_title" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/food_info_return_policy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sf_pro_rounded"
+        android:text="@string/text_food_info_screen_return_policy_title"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_17sp"
+        app:layout_constraintStart_toEndOf="@id/food_info_back"
+        app:layout_constraintTop_toBottomOf="@id/food_info_delivery_info_text" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/food_info_return_policy_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/size_24dp"
+        android:alpha="0.5"
+        android:fontFamily="@font/sf_pro_text"
+        android:justificationMode="inter_word"
+        android:letterSpacing="0.02"
+        android:text="@string/food_info_return_policy_text"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/food_info_delivery_info_title"
+        app:layout_constraintTop_toBottomOf="@id/food_info_return_policy" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/food_info_add_to_cart_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_56dp"
+        android:layout_marginHorizontal="@dimen/size_24dp"
+        android:backgroundTint="#FA4A0C"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:text="@string/food_inf_add_to_cart"
+        android:textAllCaps="false"
+        app:cornerRadius="@dimen/size_24dp"
+        app:layout_constraintBottom_toBottomOf="@id/food_info_line_92_percent"
+        app:layout_constraintTop_toTopOf="@id/food_info_line_92_percent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

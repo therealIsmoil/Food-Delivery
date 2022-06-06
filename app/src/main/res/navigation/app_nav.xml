@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav"
+    app:startDestination="@id/mainScreen">
+
+    <fragment
+        android:id="@+id/startScreen"
+        android:name="uz.gita.food_delivery.presentation.ui.screens.StartScreen"
+        android:label="screen_start"
+        tools:layout="@layout/screen_start" >
+        <action
+            android:id="@+id/action_startScreen_to_loginScreen"
+            app:destination="@id/loginScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginScreen"
+        android:name="uz.gita.food_delivery.presentation.ui.screens.LoginScreen"
+        android:label="screen_login"
+        tools:layout="@layout/screen_login" >
+        <action
+            android:id="@+id/action_loginScreen_to_mainScreen"
+            app:destination="@id/mainScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainScreen"
+        android:name="uz.gita.food_delivery.presentation.ui.screens.MainScreen"
+        android:label="screen_main"
+        tools:layout="@layout/screen_main" >
+        <action
+            android:id="@+id/action_mainScreen_to_foodInfoScreen"
+            app:destination="@id/foodInfoScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/foodInfoScreen"
+        android:name="uz.gita.food_delivery.presentation.ui.screens.FoodInfoScreen"
+        android:label="screen_food_info"
+        tools:layout="@layout/screen_food_info" />
+</navigation>

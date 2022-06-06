@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable-v24/shape_item_food_see_more.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/ic__minus.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/ic_basket.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/ic_bella_olonje_logo.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/ic_empty_cart.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/ic_empty_my_cart.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/ic_heart_bottom_navigation_view.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/ic_history_bottom_navigation_view.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/ic_home.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/ic_home_bottom_navigation_vie.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/ic_home_bottom_navigation_view.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/ic_login_screen_call.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/ic_login_screen_lock.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/ic_login_screen_person.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/ic_main_screen_burger_button.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/ic_mask_group.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/ic_minus.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/ic_my_cart_bottom_navigation_view.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/ic_person.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/ic_plus.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/ic_search.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/ic_search_bottom_navigation_view.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/ic_search_for_search_page.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/ic_swipe.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/ic_toyfaces_tansparent_bg_49.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/ic_user_bottom_navigation_view.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/login_screen_card_bg.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/search_bg.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/shape_item_food.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/shape_login_screen_tablayout.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/shape_my_cart_bg.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/shape_plus_minus.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/drawable/shape_viewpager_ads.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/layout/food_info_screen.xml" value="0.1921875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/layout/item_ads.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/layout/item_category.xml" value="0.19114583333333332" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/layout/item_food.xml" value="0.16" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/layout/item_food_see_more.xml" value="0.1921875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/layout/item_my_cart.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/layout/page_home.xml" value="0.18" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/layout/page_my_cart.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/layout/page_profile.xml" value="0.18" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/layout/page_search.xml" value="0.16" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/layout/page_sign_in.xml" value="0.16" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/layout/page_sign_up.xml" value="0.18" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/layout/screen_food_info.xml" value="0.17" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/layout/screen_login.xml" value="0.14" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/layout/screen_main.xml" value="0.18" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/layout/screen_orders.xml" value="0.1921875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/layout/screen_see_more.xml" value="0.18" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/layout/screen_start.xml" value="0.16" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/FoodDelivery2/app/src/main/res/menu/screen_main_bottom_navigation_menu.xml" value="0.1921875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

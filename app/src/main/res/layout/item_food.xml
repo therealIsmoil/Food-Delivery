@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/size_200dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/size_56dp"
+    android:layout_marginStart="@dimen/size_36dp">
+
+    <View
+        android:id="@+id/shape_bg"
+        android:layout_width="210dp"
+        android:layout_height="260dp"
+        android:background="@drawable/shape_item_food"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/see_more_food_image"
+        android:layout_width="@dimen/size_150dp"
+        android:layout_height="@dimen/size_150dp"
+        android:elevation="@dimen/size_30dp"
+        android:src="@drawable/food_info_image"
+        app:layout_constraintTop_toTopOf="@id/shape_bg"
+        app:layout_constraintBottom_toTopOf="@id/see_more_food_name"
+        android:layout_marginBottom="@dimen/size_48dp"
+        app:layout_constraintEnd_toEndOf="@id/shape_bg"
+        app:layout_constraintStart_toStartOf="@id/shape_bg" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/see_more_food_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:alpha="0.9"
+        android:fontFamily="@font/sf_pro_rounded"
+        android:gravity="center"
+        android:lineSpacingExtra="-4sp"
+        android:text="@string/veggie_t"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@id/shape_bg"
+        app:layout_constraintEnd_toEndOf="@id/shape_bg"
+        app:layout_constraintStart_toStartOf="@id/shape_bg"
+        app:layout_constraintTop_toTopOf="@id/shape_bg" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/see_more_food_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/n1_900"
+        android:textColor="#FA4A0C"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="@id/shape_bg"
+        app:layout_constraintLeft_toLeftOf="@id/shape_bg"
+        app:layout_constraintRight_toRightOf="@id/shape_bg"
+        app:layout_constraintTop_toBottomOf="@id/see_more_food_name" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/start_bg"
+    tools:context=".presentation.ui.screens.StartScreen">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/shape_logo"
+        android:layout_width="@dimen/size_72dp"
+        android:layout_height="@dimen/size_72dp"
+        android:layout_marginStart="@dimen/size_32dp"
+        android:layout_marginTop="@dimen/size_32dp"
+        android:background="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="@dimen/size_52dp"
+        android:layout_height="@dimen/size_52dp"
+        android:layout_marginStart="@dimen/size_40dp"
+        android:layout_marginTop="@dimen/size_42dp"
+        android:src="@drawable/ic_start_screen_logo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="@dimen/size_18dp"
+        android:layout_height="@dimen/size_36dp"
+        android:layout_marginStart="@dimen/size_75dp"
+        android:layout_marginTop="@dimen/size_56dp"
+        android:src="@drawable/ic_start_screen_vector"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/start_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sf_pro_rounded"
+        android:letterSpacing="-0.03"
+        android:lineSpacingExtra="-21sp"
+        android:text="@string/food_for_ev"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/start_screen_images"
+        app:layout_constraintLeft_toLeftOf="@id/shape_logo"
+        app:layout_constraintTop_toBottomOf="@id/shape_logo" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/start_guideline1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.92" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/start_screen_images"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/start_screen_images"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="180:220"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/start_text" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/get_started_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_56dp"
+        android:layout_marginHorizontal="@dimen/size_36dp"
+        android:backgroundTint="@color/white"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:text="@string/start_text_get_started"
+        android:textAllCaps="false"
+        android:textColor="#FF460A"
+        android:textSize="@dimen/text_18sp"
+        app:cornerRadius="@dimen/size_24dp"
+        app:layout_constraintBottom_toBottomOf="@id/start_guideline1"
+        app:layout_constraintTop_toTopOf="@id/start_guideline1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F8">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/screen_orders_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_24dp"
+        android:fontFamily="@font/sf_pro_text"
+        android:text="@string/cart"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/screen_orders_swipe_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_24dp"
+        android:drawableStart="@drawable/ic_swipe"
+        android:drawablePadding="@dimen/size_8dp"
+        android:fontFamily="@font/sf_pro_text"
+        android:text="@string/swipe_on_an_item_to_delete"
+        android:textColor="@color/black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/screen_orders_title" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/screen_orders_empty_cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_empty_my_cart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/no_card_yet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_8dp"
+        android:fontFamily="@font/sf_pro_text"
+        android:text="@string/no_card_yet"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/screen_orders_empty_cart" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/hit_the_orange_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:alpha="0.57"
+        android:gravity="center"
+        android:text="@string/hit_the_orange_button_down_nbelow_to_create_an_order"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_17sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/no_card_yet" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/screen_orders_complete_order_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_56dp"
+        android:layout_marginHorizontal="24dp"
+        android:backgroundTint="#FA4A0C"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:text="@string/start_ordering"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:cornerRadius="24dp"
+        app:layout_constraintBottom_toBottomOf="@id/page_screen_orders_line_95_percent"
+        app:layout_constraintTop_toTopOf="@id/page_screen_orders_line_95_percent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/page_screen_orders_line_95_percent"
+        android:layout_width="@dimen/size_0dp"
+        android:layout_height="@dimen/size_0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
